@@ -1,4 +1,4 @@
-1# OpenNMS PagerDuty Plugin [![CircleCI](https://circleci.com/gh/OpenNMS/opennms-pagerduty-plugin.svg?style=svg)](https://circleci.com/gh/OpenNMS/opennms-pagerduty-plugin)
+# OpenNMS PagerDuty Plugin [![onms-plugin-pagerduty-build](https://github.com/Bluebird-Community/opennms-pagerduty-plugin/actions/workflows/build.yml/badge.svg)](https://github.com/Bluebird-Community/opennms-pagerduty-plugin/actions/workflows/build.yml)
 
 
 ![arch](assets/pd-alerts.png "PagerDuty Integration")
