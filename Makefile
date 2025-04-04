@@ -9,7 +9,7 @@ JAVA_MAJOR_VERSION  := 17
 
 ARTIFACTS_DIR       := ./target/artifacts
 RELEASE_VERSION     := UNSET.0.0
-RELEASE_BRANCH      := master
+RELEASE_BRANCH      := main
 MAJOR_VERSION       := $(shell echo $(RELEASE_VERSION) | cut -d. -f1)
 MINOR_VERSION       := $(shell echo $(RELEASE_VERSION) | cut -d. -f2)
 PATCH_VERSION       := $(shell echo $(RELEASE_VERSION) | cut -d. -f3)
