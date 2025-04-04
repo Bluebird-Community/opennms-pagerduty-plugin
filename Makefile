@@ -52,7 +52,7 @@ deps-build:
 
 .PHONY pagerduty-plugin:
 pagerduty-plugin: deps-build
-	mvn $(MAVEN_OPTS) verify
+	mvn $(MAVEN_OPTS) install
 
 .PHONY clean:
 clean: deps-build
