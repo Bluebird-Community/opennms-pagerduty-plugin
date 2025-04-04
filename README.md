@@ -20,7 +20,7 @@ This plugin is compatible with OpenNMS Horizon 26.1.3 or higher.
 Download the latest release with
 ```shell
 mkdir pager-duty-plugin && cd pager-duty-plugin
-wget https://github.com/OpenNMS/opennms-pagerduty-plugin/releases/latest/download/opennms-pagerduty-plugin.tar.gz
+wget https://github.com/Bluebird-Community/opennms-pagerduty-plugin/releases/latest/download/opennms-pagerduty-plugin.tar.gz
 ```
 
 Extract the archive and verify the checksum
@@ -65,7 +65,7 @@ config:update
 ```
 
 > [!NOTE]
-> Use the value of the "Integration Key" as the `routingKey` in the service integrations. Use a JEXL expression to filter the types of notifcations you receive. For example,`property-set jexlFilter 'alarm.reductionKey =~ ".*trigger.*"'` will forward only alarms with the label "trigger" to PagerDuty. No alarms will forward to PagerDuty until a JEXL expression is configured.   
+> Use the value of the "Integration Key" as the `routingKey` in the service integrations. Use a JEXL expression to filter the types of notifcations you receive. For example,`property-set jexlFilter 'alarm.reductionKey =~ ".*trigger.*"'` will forward only alarms with the label "trigger" to PagerDuty. No alarms will forward to PagerDuty until a JEXL expression is configured.
 
 The plugin supports handling multiple services simultaneously - use a different `alias` for each of these when configuring.
 
